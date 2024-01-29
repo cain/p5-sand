@@ -3,7 +3,7 @@ let grid;
 let w = 8;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(600, 400);
   
   
   cols = width / w;
@@ -17,10 +17,6 @@ function setup() {
   }
   
   grid[10][10] = 1;
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
